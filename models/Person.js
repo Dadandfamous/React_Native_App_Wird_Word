@@ -1,6 +1,4 @@
-// models/Person.js
 
-// See: https://github.com/gcanti/tcomb-form-native
 import t from 'tcomb-form-native';
 
 const Person = t.struct({
@@ -20,6 +18,5 @@ export const formOptions = {
     }
   }
 }
-
 
 export default Person;
