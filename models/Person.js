@@ -1,3 +1,4 @@
+
 import t from 'tcomb-form-native';
 
 const Person = t.struct({

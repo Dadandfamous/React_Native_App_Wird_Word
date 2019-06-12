@@ -1,9 +1,11 @@
 // screens/SignUp.js
 
 import React, { Component } from 'react';
+
 import t from 'tcomb-form-native';
 import Person, { formOptions } from '../models/Person'
 import { View, Text, TouchableHighlight } from 'react-native';
+
 
 import styles from './SignUp.styles';
 
@@ -41,6 +43,7 @@ export default class SignUp extends Component {
       >
         <Text style={styles.buttonText}>Sign up</Text>
       </TouchableHighlight>
+
       </View>
     );
   }
