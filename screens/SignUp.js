@@ -2,12 +2,8 @@ import React, { Component } from 'react';
 
 import t from 'tcomb-form-native';
 import Person, { formOptions } from '../models/Person'
-import ReactNative, {
-  View,
-  KeyboardAvoidingView,
-  TouchableHighlight,
-  Text,
-} from 'react-native';
+
+import ReactNative, { View, KeyboardAvoidingView,TouchableHighlight,Text } from 'react-native';
 
 import styles from './SignUp.styles';
 
@@ -50,8 +46,8 @@ export default class SignUp extends Component {
             <Text 
               style={styles.buttonText}>Sign up</Text>
           </TouchableHighlight>
-        </KeyboardAvoidingView>
-        
+        </KeyboardAvoidingView>   
+
       </View>
     );
   }
