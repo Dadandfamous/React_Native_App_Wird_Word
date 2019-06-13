@@ -6,6 +6,7 @@ import Person, { formOptions } from '../models/Person'
 import ReactNative, { View, KeyboardAvoidingView,TouchableHighlight,Text } from 'react-native';
 
 import styles from './SignUp.styles';
+import signUp from '../actions/users/sign-up';
 
 export default class SignUp extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ export default class SignUp extends Component {
     const newUser = form.getValue();
     if (!newUser) return;
     console.log(newUser);
+    signUp(newUser);
     this.clearForm();
   }
 
@@ -47,7 +49,7 @@ export default class SignUp extends Component {
           behavior="padding"
           style={styles.container}>
           <Text 
-            style={styles.title}>Sign up for Wird Word</Text>
+            style={styles.title}>Sign up for Wird  Word</Text>
 
           <Form
             ref="form"
