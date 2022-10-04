@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "expo": "^33.0.0",
+    "expo": "^46.0.14",
     "feathers": "^2.2.4",
     "feathers-authentication": "^0.7.11",
     "feathers-hooks": "^2.1.2",
